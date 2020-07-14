@@ -120,7 +120,7 @@ public class WuFinancialTest {
     double curr = 1.00;
     double expected = 0.065;
     // When
-    double actual = wF.JPYtoCNY(curr); // line no finished
+    double actual = wF.JPYtoCNY(curr);
     // Then
     Assert.assertEquals(expected, actual, 0.0);
   }
